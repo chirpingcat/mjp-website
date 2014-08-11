@@ -1,0 +1,134 @@
+html,body{
+	margin:0 !important;
+	padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+h1{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-weight: 700; 
+}
+
+p{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: white;
+	font-weight: 400; 
+
+}
+
+.img-row-1, .img-row-2{
+	padding-top: 4px;
+	text-align: center;
+}
+
+.services-text{
+	text-align: center;
+}
+
+.services-text p{
+	text-align: center;
+}
+
+.img-responsive{
+	display: inline-block;
+}
+
+.nav a {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 13px;
+	text-align: right;
+	color: white;
+	text-transform: uppercase;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.nav a:hover {
+	color: #F7901E;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+	text-decoration: none;
+	background-color: #FFF;
+}
+
+.navbar-nav {
+	float: right;
+	margin-top: 70px;
+	margin-right: 60px;
+}
+
+.navbar{
+	margin-bottom: 0px !important;
+}
+
+
+.navbar .nav {
+    margin: 0 15px 0 0 auto;
+}
+
+.navbar-inner {
+	min-height: 45px;
+    background-color: #E30421;
+    background-image: none;
+    border-color: none;
+    text-align: center;
+    padding-top: 1em;
+    box-shadow: none;
+}
+
+.navbar-brand{
+    background-color: white;
+    text-align: center;
+    max-width: 120%;
+    height: 120px;
+}
+
+.navbar-static-top {
+	border-width: 0 0 0px !important;
+}
+
+.navbar-brand img {
+    max-width: 50%;
+    padding-top: 9px !important;
+    padding-bottom: 8px;
+}
+
+.about{
+	padding: 0px !important;
+}
+
+.about-text-box{
+	background-color: #F7901E;
+	padding-left: 6%;
+	padding-right: 14%;
+	padding-top: 6%;
+	padding-bottom: 6%;	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+
+.about-img-box{
+	background-color: #FFFFFF;
+	padding: 6.06%;
+	text-align: center;
+}
+
+.highlight{
+	color: #000000;
+}
+
+.capitalise{
+	text-transform: uppercase;	
+}
