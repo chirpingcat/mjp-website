@@ -8,7 +8,7 @@ html,body{
 
 h1{
 	font-family: 'PT Sans', sans-serif;
-	font-size: 60px;
+	font-size: 53px;
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
@@ -21,7 +21,11 @@ p{
 	text-align: left;
 	color: white;
 	font-weight: 400; 
+}
 
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 .img-row-1, .img-row-2{
@@ -144,8 +148,8 @@ p{
 }
 
 .services{
-	padding-top: 5%;
-	padding-bottom: 2%;
+	padding-top: 1%;
+	padding-bottom: 1%;
 }
 
 .services-text{
@@ -163,4 +167,56 @@ p{
 
 .exc{
 	width: 60%;
+}
+
+.work{
+	padding-top: 1%;
+	padding-bottom: 1%;
+	background-color: #F7901E;
+}
+
+.contact{
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.contact-content{
+	padding-top: 6%;
+	padding-bottom: 6%;	
+}
+
+.name{
+	color: #F7901E;
+	font-size: 32px;
+}
+
+.position{
+	font-size: 27px;
+	color: white;
+}
+
+.abn{
+	line-height: 0px;
+}
+
+.address-2{
+	line-height: 0px;
+}
+
+.footer{
+	background-color: #F7901E;
+	height: 30px;
+}
+.footer p{
+	font-size: 13px;
+}
+
+.MJP p{
+	text-align: left;
+	margin-top: 7px;
+}
+
+.aurora p{
+	text-align: right;
+	margin-top: 7px;
 }
