@@ -12,7 +12,6 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
 
-
   <!-- Documentation extras -->
   <link type="text/css" rel="stylesheet" href="stylesheet.css">  
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'> 
@@ -23,41 +22,45 @@
   <link rel="icon" href="/favicon.ico">
 </head>
 
-<body>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
 <!-- Navigation -->
-<header class="navbar navbar-static-top">
-  <div class="container-fluid logo col-lg-12">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Menu</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#" class="navbar-brand logo"><img src="img/mjp-logo.png"></a>
-    </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="two">Services</a>
-        </li>
-        <li>
-          <a href="three">Gallery</a>
-        </li>
-        <li>
-          <a href="four">Contact</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">  
+      <div class="container-fluid logo col-lg-12">
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+
+            <a class="navbar-brand logo page-scroll" href="#page-top">
+              <img src="img/mjp-logo.png">
+            </a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li>
+              <a class="page-scroll" href="#about">About</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#services">Services</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#our-work">Our Work</a>
+            </li>
+            <li>
+              <a class="page-scroll" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div> 
     </nav>
-  </div>
-</header>
 
 <!-- About -->
-    <div class="container-fluid col-lg-12 about">
+    <div class="container-fluid col-lg-12 about" id="about">
       <div class="col-lg-5 col-lg-offset-1 about-text-box">
         <div class="about-text">
           <p class="highlight"> We are a Melbourne based company with over 13 years of extensive experience in excavations. </p>
@@ -75,7 +78,7 @@
     </div>
 
 <!-- Services -->
-    <div class="container-fluid col-lg-12 services">
+    <div class="container-fluid col-lg-12 services" id="services">
       <div class="services-title">
         <h1>Services</h1>
       </div>
@@ -105,7 +108,7 @@
       </div>
 
 <!-- Work -->
-    <div class="container-fluid col-lg-12 work">
+    <div class="container-fluid col-lg-12 our-work" id="our-work">
       <div class="work-title">
         <h1>Work</h1>
       </div>
@@ -135,7 +138,7 @@
   </div>
 
 <!-- Contact -->
-    <div class="container-fluid col-lg-12 contact">
+    <div class="container-fluid col-lg-12 contact" id="contact">
       <div class="contact-title">
         <h1>Contact</h1>
       </div>
@@ -172,7 +175,18 @@
       </div>
     </div>  
       
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
 
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+ 
+ </body>
+ </html>   
           
 
 

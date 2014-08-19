@@ -4,6 +4,7 @@ html,body {
     max-width: 100%;
     overflow-x: hidden;
     background-color: black;
+	padding-top: 4%;
 }
 
 h1 {
@@ -37,7 +38,7 @@ p {
 	display: inline-block;
 }
 
-.nav a {
+.navbar-inverse .navbar-nav>li>a {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 13px;
 	text-align: right;
@@ -50,13 +51,13 @@ p {
     transition: all .5s ease;
 }
 
-.nav a:hover {
-	color: #F7901E;
+.navbar {
+	padding: 0px 0;
 }
 
-.nav>li>a:hover, .nav>li>a:focus {
-	text-decoration: none;
-	background-color: #FFF;
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #F7901E;
+	background-color: #FFFFFF;
 }
 
 .navbar-nav {
@@ -65,46 +66,29 @@ p {
 	margin-right: 60px;
 }
 
-.navbar{
-	margin-bottom: 0px !important;
-}
-
-
-.navbar .nav {
-    margin: 0 15px 0 0 auto;
-}
-
-.navbar-inner {
-	min-height: 45px;
-    background-color: #E30421;
-    background-image: none;
-    border-color: none;
-    text-align: center;
-    padding-top: 1em;
-    box-shadow: none;
+.navbar-inverse {
+	background-color: #000000;
+	border-color: #FFFFFF;
 }
 
 .navbar-brand {
     background-color: white;
     text-align: center;
-    max-width: 120%;
     height: 120px;
+    width: 450px;
 }
 
-.navbar-static-top {
-	border-width: 0 0 0px !important;
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+	color: none;
+	background-color: white;
 }
 
 .navbar-brand img {
-    max-width: 67%;
-    padding-top: 9px !important;
-    padding-bottom: 8px;
-	padding-left: 18%;
-	padding-right: 13%;
+    max-width: 160px;
 }
 
 .about {
-	padding: 0px !important;
+	padding-top: 0% !important;
 	background-color: #F7901E;
 }
 
@@ -141,7 +125,7 @@ p {
 
 .services {
 	background-color: #000000;
-	padding-top: 3%;
+	padding-top: 7%;
 }
 
 .services-title{
@@ -179,7 +163,7 @@ p {
 }
 
 .work {
-	padding-top: 3%;
+	padding-top: 7%;
 	background-color: #000000;
 }
 
@@ -204,7 +188,7 @@ p {
 	background-size: 440px;
     background-repeat: no-repeat;
     background-position: right top;
-	padding-top: 3%;
+	padding-top: 7%;
 }
 
 .contact-title{
@@ -251,7 +235,7 @@ p {
 	height: 30px;
 }
 .footer p {
-	font-size: 13px;
+	font-size: 11px;
 }
 
 .MJP p {
