@@ -7,6 +7,7 @@ html,body {
 	padding-top: 4%;
 }
 
+
 h1 {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 53px;
@@ -88,7 +89,8 @@ p {
 }
 
 .about {
-	padding-top: 0% !important;
+	height: 100%;
+	padding-top: 63px;
 	background-color: #F7901E;
 }
 
@@ -125,7 +127,8 @@ p {
 
 .services {
 	background-color: #000000;
-	padding-top: 7%;
+	height: 100%;
+	padding-top: 150px;
 }
 
 .services-title{
@@ -137,7 +140,7 @@ p {
 
 .services-content {
 	padding-top: .5%;
-	padding-bottom: 4.5%;
+	padding-bottom: 0%;
 	text-align: center;
 }
 
@@ -162,8 +165,9 @@ p {
 	width: 60%;
 }
 
-.work {
-	padding-top: 7%;
+.our-work {
+	height: 100%;
+	padding-top: 120px;
 	background-color: #000000;
 }
 
@@ -188,7 +192,8 @@ p {
 	background-size: 440px;
     background-repeat: no-repeat;
     background-position: right top;
-	padding-top: 7%;
+	height: 100%;
+	padding-top: 40px;
 }
 
 .contact-title{
