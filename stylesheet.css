@@ -88,10 +88,14 @@ p {
     max-width: 160px;
 }
 
+#page-scroll{
+	margin-top: 63px;
+}
+
 .about {
 	height: 100%;
-	padding-top: 63px;
 	background-color: #F7901E;
+	margin-top: 60px;
 }
 
 .about-text-box {
