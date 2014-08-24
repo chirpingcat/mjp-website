@@ -278,3 +278,26 @@ i.ss-icon {
     text-decoration: none !important;
     color: white;
 }
+
+.close:hover{
+	color: #F7901E !important;
+	opacity: 1;
+}
+
+.prev, .next {
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 50px !important; 
+	text-shadow: none !important;
+	background: none !important;
+	background: none !important;
+	width: 34px !important;
+	height: 34px !important;
+}
+
+.prev:hover, .next:hover {
+	color: #F7901E !important;
+}
+
+.blueimp-gallery>.slides>.slide>.slide-content {
+	max-height: 90%;
+}

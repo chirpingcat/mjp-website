@@ -11,6 +11,9 @@
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">  
 
   <!-- Documentation extras -->
   <link type="text/css" rel="stylesheet" href="stylesheet.css">  
@@ -113,30 +116,48 @@
         <h1>Work</h1>
       </div>
 
-        <div class="container-fluid work-content col-lg-12">
-          
           <div class="row img-row-1">
             <div class="work-img clearfix">
-              <img src="img/img-1.jpg" class=" img-responsive"> 
-              <img src="img/img-2.jpg" class=" img-responsive">
-              <img src="img/img-3.jpg" class=" img-responsive"> 
-              <img src="img/img-4.jpg" class=" img-responsive">
-              <img src="img/img-5.jpg" class=" img-responsive">
+              <a href="img/img-1-large.jpg" data-gallery>
+                <img src="img/img-1.jpg" alt="img1">
+              </a>
+              <a href="img/img-2-large.jpg" data-gallery>
+                <img src="img/img-2.jpg" alt="img1">
+              </a>
+              <a href="img/img-3-large.jpg" data-gallery>
+                <img src="img/img-3.jpg" alt="img1">
+              </a>
+              <a href="img/img-4-large.jpg" data-gallery>
+                <img src="img/img-4.jpg" alt="img1">
+              </a>
+              <a href="img/img-5-large.jpg" data-gallery>
+                <img src="img/img-5.jpg" alt="img1">
+              </a>                                                     
             </div> 
           </div>
 
-          <div class="row img-row-2">
+          <div class="row img-row-2 ">
             <div class="work-img clearfix">
-              <img src="img/img-6.jpg" class=" img-responsive"> 
-              <img src="img/img-7.jpg" class=" img-responsive">
-              <img src="img/img-8.jpg" class=" img-responsive"> 
-              <img src="img/img-9.jpg" class=" img-responsive">
-              <img src="img/img-10.jpg" class=" img-responsive">
+              <a href="img/img-6-large.jpg" data-gallery>
+                <img src="img/img-6.jpg" alt="img1">
+              </a>
+              <a href="img/img-7-large.jpg" data-gallery>
+                <img src="img/img-7.jpg" alt="img1">
+              </a>
+              <a href="img/img-8-large.jpg" data-gallery>
+                <img src="img/img-8.jpg" alt="img1">
+              </a>
+              <a href="img/img-9-large.jpg" data-gallery>
+                <img src="img/img-9.jpg" alt="img1">
+              </a>
+              <a href="img/img-10-large.jpg" data-gallery>
+                <img src="img/img-10.jpg" alt="img1">
+              </a> 
           </div>
         </div>
-       </div>     
+       </div>    
     </div>
-  </div>
+
 
 <!-- Contact -->
     <div class="container-fluid col-lg-12 contact" id="contact">
@@ -177,16 +198,50 @@
         </div> 
       </div>
     </div>  
-      
+ </div>    
+     
+ <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery" data-use-bootstrap-modal="false">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
     <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>     <script src="js/jquery.easing.min.js"></script>
     <script src="js/scrolling-nav.js"></script>
+
  
  </body>
  </html>   
