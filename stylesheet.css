@@ -185,16 +185,25 @@ p {
 	background-color: black;
 }
 
-#gallery-img {
+.gallery-img {
 	width: 19.5%;
-
+    -webkit-transition: all opacity .5s ease;
+    -moz-transition: all opacity .5s ease;
+    -o-transition: all opacity .5s ease;
+    -ms-transition: all opacity .5s ease;
+    transition: all opacity .5s ease;
 }
 
-#gallery-img:hover{
-	content: url('img/view.png');
-  position: absolute;
-  left: 0px;
-  width: 200px;
+.img-hover {
+    color: #fff;
+    opacity: 0.5;
+}
+
+.magnify-image { 
+    display: none !important;
+    position: absolute !important;
+    color: white !important;
+    font-size: 50px;
 }
 
 .contact {
@@ -221,7 +230,7 @@ p {
 .claw {
 	text-align: center;
 	display: inline-block;
-	padding-left: 17%
+	padding-left: 17%;
 }
 
 .claw img{
