@@ -185,8 +185,16 @@ p {
 	background-color: black;
 }
 
-.work-img img {
+#gallery-img {
 	width: 19.5%;
+
+}
+
+#gallery-img:hover{
+	content: url('img/view.png');
+  position: absolute;
+  left: 0px;
+  width: 200px;
 }
 
 .contact {
