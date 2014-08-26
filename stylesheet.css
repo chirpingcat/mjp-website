@@ -103,8 +103,8 @@ a{
 .about-text-box {
 	background-color: #F7901E;
 	padding-right: 14%;
-	padding-top: 7%;
-	padding-bottom: 4%;	
+	padding-top: 9%;
+	padding-bottom: 9%;	
 	font-family: 'PT Sans', sans-serif;
 	font-size: 17px;
 	text-align: left;
@@ -114,8 +114,8 @@ a{
 	background-color: #FFFFFF;
 	padding-left: 6.06%;
 	padding-right: 6.06%;
-	padding-top: 8%;
-	padding-bottom: 11%;	
+	padding-top: 10%;
+	padding-bottom: 15%;	
 	text-align: center;
 }
  
@@ -190,11 +190,6 @@ a{
  
 .gallery-img {
 	width: 20vw;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    transition: all .4s ease;
 }
  
 .gallery-img:hover { 
