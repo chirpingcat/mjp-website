@@ -217,12 +217,22 @@
       </div>
  
     <!-- JavaScript -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>    
     <script src="js/scrolling-nav.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+    <script>
+        $(function(){
+            if (window.Modernizr && window.Modernizr.touch){
+                $('.navbar-nav li').click(function(){
+                    $('.navbar-header > button').click();
+                });
+            }
+        });
+    </script>
  
  </body>
  </html>   

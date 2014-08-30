@@ -336,6 +336,7 @@ i.ss-icon {
 .navbar-inverse .navbar-toggle {
 	border-color: #000000;
 	background-color: #000000;
+	margin-right: 3.5%;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -386,7 +387,7 @@ body{
 }
 
 .contact{
-	padding-top: 70px;
+	padding-top: 150px !important;
 	background-size: 145px;
 }
 
