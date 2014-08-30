@@ -344,7 +344,7 @@ border-color: #000000;
 }
 
 
-@media (max-width: 568px){
+@media (max-width: 567px){
 
 body{
 	margin-top: 190px;
@@ -356,7 +356,7 @@ body{
 }
 
 .navbar-brand {
-    width: 360px;
+    width: 100%;
 }
 
 .about{
@@ -431,7 +431,7 @@ body{
 
 }
 
-@media (min-width: 568px) and (max-width: 750px) {
+@media (min-width: 568px) and (max-width: 749px) {
 
 .about{
 	margin-top: 120px !important;
@@ -486,8 +486,86 @@ body{
 
 }
 
-@media (min-width: 1024px and (max-width: @screen-md-max) { 	
-	.about-img-box {
-	padding-top: 18%;
+@media (min-width: 950px) and (max-width: 1023px) { 	
+
+.about{
+	margin-top: 120px !important;
+	height: 370px;
 }
+
+.about-img-box{
+	visibility: hidden;
+}
+
+.gallery-img {
+	width: 50%;
+	padding-top: 2% !important;
+} 
+
+.about-text-box{
+	padding-left: 14%;
+}
+
+.services{
+	padding-top: 140px;
+}
+
+.services-text{
+	padding-bottom: 10% !important;
+	padding-top: 5% !important;
+}
+
+.services-text p {
+	padding-top: 5% !important;
+}
+
+.tipper {
+	width: 40%;
+}
+ 
+.shovel {
+	width: 23%;
+}
+ 
+.exc {
+	width: 40%;
+}
+
+.contact{
+	background-size: 340px !important;
+	padding-top: 130px !important;
+}
+
+.contact-text{
+	padding-left: 16%;
+}
+
+#phone{
+	padding-left: 14%;
+	padding-top: 8%;
+}
+
+#email{
+	padding-left: 14%;
+}
+
+.address-1{
+	padding-left: 14%;
+}
+
+.address-2 {
+	padding-left: 18%;
+}
+
+
+.MJP p{
+	text-align: center;
+}
+.aurora p{
+	text-align: center;
+	margin-top: 13px;
+}
+
+}
+
 @media (min-width: @screen-lg-min) { ... }
