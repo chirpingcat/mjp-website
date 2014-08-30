@@ -252,6 +252,7 @@ a{
  
 .address-2 {
 	line-height: 0px;
+	padding-left: 9%;
 }
  
 .footer {
@@ -342,7 +343,7 @@ border-color: #000000;
 }
 
 
-@media (max-width: 480px){
+@media (max-width: 568px){
 
 body{
 	margin-top: 190px;
@@ -381,7 +382,7 @@ body{
 }
 
 .gallery-img {
-	width: 100%;
+	width: 85%;
 }
 
 .contact{
@@ -411,8 +412,12 @@ body{
 	padding-left: 6%;
 }
 
-.address-1, .address-2{
+.address-1 {
 	padding-left: 6%;
+}
+
+.address-2 {
+	padding-left: 18%;
 }
 
 .MJP p{
@@ -425,8 +430,61 @@ body{
 
 }
 
-@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
- }
+@media (min-width: 568px) and (max-width: 750px) {
+
+.about{
+	margin-top: 120px !important;
+}
+
+.gallery-img {
+	width: 50%;
+	padding-top: 2% !important;
+} 
+
+.about-text-box{
+	padding-left: 14%;
+}
+
+.tipper {
+	width: 45%;
+}
+ 
+.shovel {
+	width: 25%;
+}
+ 
+.exc {
+	width: 45%;
+}
+
+.contact{
+	background-size: 240px !important;
+	padding-top: 130px !important;
+}
+
+.contact-text{
+	padding-left: 16%;
+}
+
+#phone{
+	padding-left: 14%;
+	padding-top: 8%;
+}
+
+#email{
+	padding-left: 14%;
+}
+
+.address-1{
+	padding-left: 14%;
+}
+
+.address-2 {
+	padding-left: 21%;
+}
+
+}
+
 @media (min-width: 1024px and (max-width: @screen-md-max) { 	
 	.about-img-box {
 	padding-top: 18%;
