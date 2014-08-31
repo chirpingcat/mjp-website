@@ -313,12 +313,14 @@ i.ss-icon {
  
 .prev, .next {
 	font-family: 'PT Sans', sans-serif !important;
-	font-size: 50px !important; 
+	font-size: 70px !important; 
 	text-shadow: none !important;
 	background: none !important;
 	background: none !important;
 	width: 34px !important;
 	height: 34px !important;
+	line-height: 0px;
+	margin-top: 0px;
 }
  
 .prev:hover, .next:hover {
@@ -327,6 +329,10 @@ i.ss-icon {
  
 .blueimp-gallery>.slides>.slide>.slide-content {
 	max-height: 90%;
+}
+
+.blueimp-gallery>.prev, .blueimp-gallery>.next{
+	border: none !important;
 }
 
 .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
@@ -344,7 +350,7 @@ border-color: #000000;
 }
 
 
-@media (max-width: 567px){
+@media (max-width: 568px){
 
 body{
 	margin-top: 190px;
@@ -422,16 +428,16 @@ body{
 }
 
 .MJP p{
-	text-align: center;
+	text-align: center !important;
 }
 .aurora p{
-	text-align: center;
+	text-align: center !important;
 	margin-top: 13px;
 }
 
 }
 
-@media (min-width: 568px) and (max-width: 749px) {
+@media (min-width: 568px) and (max-width: 767px) {
 
 .about{
 	margin-top: 120px !important;
@@ -439,11 +445,12 @@ body{
 
 .gallery-img {
 	width: 50%;
-	padding-top: 2% !important;
+	padding-top: 2px !important;
 } 
 
 .about-text-box{
 	padding-left: 14%;
+	padding-top: 20%;
 }
 
 .tipper {
@@ -486,11 +493,16 @@ body{
 
 }
 
-@media (min-width: 950px) and (max-width: 1023px) { 	
+@media (min-width: 768px) and (max-width: 992px) { 	
+
+.navbar-inverse .navbar-brand {
+	width: 322px !important;
+}
 
 .about{
 	margin-top: 120px !important;
-	height: 370px;
+	padding-top: 65px;
+	height: 550px;	
 }
 
 .about-img-box{
@@ -498,12 +510,12 @@ body{
 }
 
 .gallery-img {
-	width: 50%;
-	padding-top: 2% !important;
+	width: 19vw;
 } 
 
 .about-text-box{
-	padding-left: 14%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 .services{
@@ -511,8 +523,8 @@ body{
 }
 
 .services-text{
-	padding-bottom: 10% !important;
-	padding-top: 5% !important;
+	padding-bottom: 0% !important;
+	padding-top: 10% !important;
 }
 
 .services-text p {
@@ -520,15 +532,15 @@ body{
 }
 
 .tipper {
-	width: 40%;
+	width: 30%;
 }
  
 .shovel {
-	width: 23%;
+	width: 18%;
 }
  
 .exc {
-	width: 40%;
+	width: 30%;
 }
 
 .contact{
@@ -567,5 +579,7 @@ body{
 }
 
 }
+
+
 
 @media (min-width: @screen-lg-min) { ... }
