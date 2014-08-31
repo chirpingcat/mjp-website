@@ -171,7 +171,7 @@
           <div class="col-md-4 col-lg-4 contact-details">
             <p id ="phone"> <a href="tel:+61421159244"><i class="ss-icon">&#x1F4DE;</i>   0421 159 244</a></p> 
             <p id="email"> <a href="mailto:mjpexc@outlook.com"> <i class="ss-icon">&#x2709;</i>   mjpexc@outlook.com</a></p>
-            <p class="address-1"> <i class="ss-icon">&#xF654;</i>   PO Box 3094</p> <p class="address-2">Caroline Springs VIC 3023</p>    
+            <p class="address-1"> <i class="ss-icon">&#xF654;</i>   PO Box 3094<br/>Caroline Springs VIC 3023</p>    
           </div>
         
         </div>
@@ -193,27 +193,28 @@
     </div>  
      
 <!-- The Bootstrap Image Gallery lightbox-->
-  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls" data-use-bootstrap-modal="false">
       <div class="slides"></div>
-      <!-- Controls -->
-      <h3 class="title"></h3>
-      <a class="prev">‹</a>
-      <a class="next">›</a>
-      <a class="close">×</a>
-   
+        
+        <!-- Controls -->
+        <h3 class="title"></h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+     
       <!-- The Modal -->
       <div class="modal fade">
-          <div class="modal-dialog">
-              <div class="modal-content">
-                  <div class="modal-header">
-                      <button type="button" class="close" aria-hidden="true">&times;</button>
-                      <h4 class="modal-title"></h4>
-                  </div>
-                  <div class="modal-body next"></div>
-                </div>
-              </div>
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" aria-hidden="true">&times;</button>
+                  <h4 class="modal-title"></h4>
+            </div>
+            <div class="modal-body next"></div>
           </div>
+        </div>
       </div>
+    </div>
  
     <!-- JavaScript -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
@@ -223,6 +224,7 @@
     <script src="js/bootstrap-image-gallery.min.js"></script>    
     <script src="js/scrolling-nav.js"></script>
     <script src="js/jquery.easing.min.js"></script>
+   
     <script>
         $(function(){
             if (window.Modernizr && window.Modernizr.touch){

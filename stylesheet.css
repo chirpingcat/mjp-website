@@ -1,6 +1,6 @@
 html, body {
 	margin:0 !important;
-	padding: 0;
+	padding: 0 !important;
     max-width: 100%;
     overflow-x: hidden;
     background-color: black;
@@ -250,11 +250,6 @@ a{
 	line-height: 0px;
 }
  
-.address-2 {
-	line-height: 0px;
-	padding-left: 9%;
-}
- 
 .footer {
 	background-color: #F7901E;
 	height: 30px;
@@ -423,10 +418,6 @@ body{
 	padding-left: 6%;
 }
 
-.address-2 {
-	padding-left: 18%;
-}
-
 .MJP p{
 	text-align: center !important;
 }
@@ -485,10 +476,6 @@ body{
 
 .address-1{
 	padding-left: 14%;
-}
-
-.address-2 {
-	padding-left: 21%;
 }
 
 }
@@ -563,10 +550,6 @@ body{
 
 .address-1{
 	padding-left: 14%;
-}
-
-.address-2 {
-	padding-left: 18%;
 }
 
 
