@@ -247,11 +247,11 @@
    
     <script>
         $(function(){
-            if (window.Modernizr && window.Modernizr.touch){
-                $('.navbar-nav li').click(function(){
+            $('.navbar-nav li').click(function(){
+                if ( $('.navbar-toggle').is(':visible')  ){
                     $('.navbar-header > button').click();
-                });
-            }
+                }
+            });
         });
     </script>
  
