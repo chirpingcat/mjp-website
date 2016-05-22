@@ -32,7 +32,7 @@ a{
 	padding-left: 0px;
 }
  
-.img-row-1, .img-row-2 {
+.img-row-1, .img-row-2, .img-row-3, .img-row-4 {
 	padding-top: 4px;
 	text-align: center;
 }
@@ -157,16 +157,15 @@ a{
 	padding-top: 13%;
 }
  
-.tipper {
-	width: 60%;
-}
+
  
 .shovel {
-	width: 28%;
+	width: 12%;
 }
  
 .exc {
-	width: 60%;
+	width: 26%;
+	padding-top: 2%;
 }
  
 .our-work {
